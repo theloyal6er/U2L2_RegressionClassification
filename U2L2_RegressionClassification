@@ -1,0 +1,20 @@
+The amount a person will spend on a given site in the next 24 months.
+- Classification: Understanding the time spent on a site through a categorical lens is most likely difficult to do given the amount of time spent is so varied between person to person. Creating a model that tracks average time spent through their actions on the website is most likely the best way to go about this model.
+
+What color car someone is going to buy.
+- Categorical: Because the inventory of car colors are most likely a set number of colors - i.e. red, blue, black, white, etc. - there are only so many choices a customer can make. Thus creating an algorithm that shows what a customer is most likely going to buy will best fit the model appropriately.
+
+How many children a family will have.
+- Categorical: Because the numerical categories of children in a family are not wide-ranging, it is more likely to see the number of children varying between 0-5 with outliers 6 and above. Calculating probability within these buckets will give better indicators of our model for how many children a fmamily will have.
+
+If someone will sign up for a service.
+- Categorical: We can have a {Yes, No} model that shows whether someone will sign up for a service. Then calculating the probability wtihin each bucket might give an indication as to whether someone will or will not sign up for the service.
+
+The number of times someone will get sick in a year.
+- Classification: The number of times someone will get sick will be varied so it is best to undergo a classification model that shows a varied number of times across people. Since we are looking for a number of people versus a categorical value, which understands whether someone will be sick or not.
+
+The probability someone will get sick in the next month.
+- Categorical: You can use a {Yes, No} model that shows the probability between Yes/No to see the likelihood whether someone gets sick or not. This shows intrinsically the probability whether someone will get sick or not.
+
+Which medicine will work best for a given patient.
+- Classification: Because the range of medicine is so wide-ranging, showing a classfication model displaying the medicine as to what works best is the main way to see which medicine will work best. A wide range of medicine will show the effectiveness accordingly.
